@@ -1,0 +1,25 @@
+# Ignore typical output directories
+dist
+target
+out
+cert
+.webpack
+# Node.js specific
+node_modules
+# Cache directories
+.npm
+.eslintcache
+.tsbuildinfo
+# macos specific files
+.DS_Store
+# test output
+junit.xml
+coverage
+# mongodb
+mongodata
+mongodatatest
+# Submission file
+abgabe*.zip
+# ignore log files
+*.log
+.env
